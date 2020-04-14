@@ -30,4 +30,5 @@ jobs:
         dir
         cd The_Social_Network
         cd my_social_network
-        python manage.py runserver
+        cd users
+        python tests.py
