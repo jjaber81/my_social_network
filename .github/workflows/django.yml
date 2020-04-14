@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python /The_Social_Network/my_social_network/users/tests.py
+        python my_social_network/The_Social_Network/my_social_network/users/tests.py
