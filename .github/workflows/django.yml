@@ -28,5 +28,6 @@ jobs:
     - name: Run Tests
       run: |
         pwd
+        cd ..
         cd users
         python tests.py
