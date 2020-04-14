@@ -27,4 +27,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py test
+        dir
+        cd The_Social_Network
+        cd my_social_network
+        python manage.py runserver
