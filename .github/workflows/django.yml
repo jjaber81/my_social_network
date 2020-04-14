@@ -28,6 +28,6 @@ jobs:
     - name: Run Tests
       run: |
         dir
-        cd The_Social_network
+        cd The_Social_Network
         cd my_social_network
         python manage.py runserver
